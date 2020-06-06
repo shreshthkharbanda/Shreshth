@@ -106,6 +106,9 @@
                 <!--Banner Section Start-->
                 <section id="home" class="banner-section pt-page" style="background-image: url('img/background/home-bg.jpg')">
 
+                    <!--Particle Container-->
+                    <div id="particles-js"></div>
+
                     <div class="banner-content">
                         <!--Banner Text-->
                         <h1 class="mb-20">Shreshth <span>Kharbanda</span></h1>
@@ -896,7 +899,8 @@
                                 </div>
 
                                 <!--Form Start-->
-                                <form id="contact-form" method="post" action="mail.php">
+                                <!-- <form id="contact-form" method="post" action="mail.php"> -->
+                                    <form id="contact-form" action="https://formspree.io/mlepbayy" method="POST">
                                     <div class="row">
 
 
@@ -911,7 +915,7 @@
                                         <!--Email Field-->
                                         <div class="col-md-6 mb-50">
                                             <span class="input">
-                                                <input class="input__field cf-validate" type="email" id="cf-email" name="email" />
+                                                <input type="text" class="input__field cf-validate" type="email" id="cf-email" name="email" />
                                                 <label class="input__label" for="cf-email">Email</label>
                                             </span>
                                         </div>
@@ -928,7 +932,7 @@
 
                                         <!--Submit Button-->
                                         <div class="col-md-12 text-center">
-                                            <button id="cf-submit" class="btn-main">Send</button>
+                                            <button type="submit" id="cf-submit" class="btn-main">Send</button>
                                         </div>
 
 
